@@ -1,0 +1,14 @@
+[package]
+name = "ton-test-bls-app"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.7"
+rand_chacha = "0.2"
+criterion = "0.3"
+#ton_bls_lib = { path = "../ton-bls-lib" }
+
+ton_bls_lib = { git = "ssh://git@github.com/tonlabs/ton-bls-lib.git" }
